@@ -126,11 +126,14 @@ Wordy는 영어 단어 학습과 AI 기반 문법 교정 서비스를 제공합�
 > 회원 관리
 
 서비스는 회원가입 혹은 로그인 후 이용 가능하며, 이메일 인증을 통해 회원가입이 진행됩니다. 소셜 로그인 시 이메일 제공이 없다면, 내 정보에서 이메일을 직접 입력해야 합니다.
-<img width="443" alt="image" src="https://private-user-images.githubusercontent.com/124546770/399425485-5e9cc68a-115d-48a1-91d4-fc13e27e34ab.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU2MjkyNTYsIm5iZiI6MTczNTYyODk1NiwicGF0aCI6Ii8xMjQ1NDY3NzAvMzk5NDI1NDg1LTVlOWNjNjhhLTExNWQtNDhhMS05MWQ0LWZjMTNlMjdlMzRhYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIzMVQwNzA5MTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jYTZhZWRiODUwYWEwNWU5MjE5N2NjODQ1NDgzZTQ4ZGQ5ODVkMGFjMDBkZjU1MjgzMjE1NTA4YTBkZjg4ZjA1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.-OhxgUPSHUA8HXni-mDCk8drxqq7NmGogfV7qewwkdI" alt="이메일 인증 화면">
+
+- <img width="443" alt="이메일 인증 화면" src="https://private-user-images.githubusercontent.com/124546770/399425485-5e9cc68a-115d-48a1-91d4-fc13e27e34ab.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU2MjkyNTYsIm5iZiI6MTczNTYyODk1NiwicGF0aCI6Ii8xMjQ1NDY3NzAvMzk5NDI1NDg1LTVlOWNjNjhhLTExNWQtNDhhMS05MWQ0LWZjMTNlMjdlMzRhYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIzMVQwNzA5MTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jYTZhZWRiODUwYWEwNWU5MjE5N2NjODQ1NDgzZTQ4ZGQ5ODVkMGFjMDBkZjU1MjgzMjE1NTA4YTBkZjg4ZjA1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.-OhxgUPSHUA8HXni-mDCk8drxqq7NmGogfV7qewwkdI" >
 
 > 단어 학습
 
 단어 학습은 4개의 공인인증시험 카테고리를 통해 이루어지며, 사용자는 10개의 단어를 학습하고 테스트합니다. 정답과 오답 결과는 학습 결과 창에서 확인할 수 있습니다. 학습한 단어는 랭킹 시스템의 점수로 변환되며, 사용자는 자신과 다른 유저의 랭킹을 확인할 수 있습니다.
+
+- 
 
 > 문법 교정 [AI]
 
@@ -139,6 +142,8 @@ Wordy는 영어 단어 학습과 AI 기반 문법 교정 서비스를 제공합�
 > 스크립트 생성 [AI]
 
 문장 단어 학습은 사용자가 학습한 단어를 바탕으로 스크립트를 생성해 보다 자연스러운 대화형 학습을 제공합니다.
+
+- <img width="443" alt="스크립트 문법 공부" src="https://blog.kakaocdn.net/dn/cjXEVg/btsLAXqJcL8/cIYjrhR7zzUDg72d32eWgk/img.gif"/>
 
 > 단어장 및 저장소
 
