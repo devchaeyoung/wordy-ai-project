@@ -4,7 +4,7 @@
 
 2023.10.02 ~ 2023.11.04 (5주)
 
-> *wiki에서 자세한 프로젝트 설명을 확인하실 수 있습니다
+> **wiki**에서 트러블 슈팅과 같은 자세한 프로젝트 설명을 확인하실 수 있습니다.
 
 ## 프로젝트 주제
 
@@ -51,7 +51,7 @@ Wordy는 사용자 중심의 영어 학습 플랫폼으로, 어디서나 편리�
 
 ## 기획 의도
 
-### 아이디어 
+### 💡 아이디어 
 
 > AI를 개인 공부에 이용하면 어떨까?
 
@@ -59,26 +59,26 @@ Wordy는 사용자 중심의 영어 학습 플랫폼으로, 어디서나 편리�
 - ai를 활용하여 맞춤형 대화 예문 제공
 - 다른 사람들과 함께 학습함으로 학습 의지 다지기는 기능 제공
 
-### 타겟팅
+### 🎯 타겟팅
 
 - 단어를 다회독해도 암기에 어려움을 느끼는 학습자
 - 단어 학습 시간 효율을 최대한 하고 싶은 학습자
 
-### 프로젝트가 제공하는 기대 효과와 활용 방안
+### ✨ 프로젝트가 제공하는 기대 효과와 활용 방안
 
 - 단어 학습에 어려움이 있는 유저를 위한 서비스
 - 외운 단어 기반으로 한번 더 예시 스크립트를 보여줌으로 인해 메타인지 상승 효과
 
 ## 서비스 시나리오
 
-### 유저 시나리오
+### 🧑‍🏫 유저 시나리오
 
 1. 단어를 혼자 외우던게 어렵던 **20살 엘리스씨**, 막연히 단어만 외우기도 어렵고 외운 단어에서 예제를 보여주는 좋은 사이트가 없는지 고민을 하던 중, 낱말 카드 형식으로 단어도 학습하고, 학습한 단어 기반으로 예문에 예문 속 문법까지 만들어주는 교육 사이트의 광고를 발견합니다.
 - pre-svg : 페이지 접속
 
 2. 평소 이직을 희망하며 야간 토익학원을 다니던 **30살 이금자씨**는 출퇴근 시간에도 영단어 종이 수첩의 불편함을 깨닫고 핸드폰으로 학습 할 수 있는 어플을 찾게 되고, Wordy의 단어장 서비스를 통해 종입 수첩에 있던 단어들을 모바일에 저장하고 Wordy에서 제공되는 단어 학습을 통해 언제 어디서든 쉽게 영어 단어를 저장하고 학습 할 수 있게 됩니다.
 
-### 서비스 시나리오
+### 📄 서비스 시나리오
 
 Wordy는 어디서나 쉽게 영단어 학습을 하며, AI를 통해 문법 교정까지 해주는 서비스 입니다. Wordy는 기존의 영단어 학습 서비스에서 더 나아가 학습 했던 단어들을 모아 사용자가 문장 생성이라는 컨텐츠를 통해 재학습을 도우며, 평소 영작문에 대한 어려움을 느끼는 유저를 위해 AI 문법 교정을 통해 쉽게 해결할 수 있습니다. 추가로 사용자가 학습을 할때마다 본인의 학습 진도율과 유저별 진행정도의 랭크 시스템을 통해
 서비스 이용도를 높이기 위한 요소도 추가했습니다. 처음 접속한 유저는 서비스 체험과 회원가입 선택해 서비스를 이용할 수 있으며, 기존 유저는 로그인을 통해 서비스를 바로 이용 가능합니다.
@@ -92,7 +92,7 @@ Wordy는 어디서나 쉽게 영단어 학습을 하며, AI를 통해 문법 교
 추가적으로 사용자가 직접 영어 단어의 직접 단어의 뜻과 스펠링을 체크하고 지우거나 고칠 수 있습니다.
 또한 상단에 사용자가 단어 검색을 통해 필터링을 할 수 있으며 쉽게 원하는 단어 또는 오답을 찾을 수 있습니다. 다섯번째로 Wordy에서 제공되는 모든 단어를 저장소를 통해 한눈에 확인할 수 있으며 여기서도 단어장과 같이 찾고자 하는 단어와 즐겨 찾기 등록 버튼을 통해 단어장에 곧바로 추가가 가능하며 하단 중앙의 버튼으로 빠른 검색 이동이 가능합니다. 마지막으로 내 정보 페이지를 통해 유저의 사진과 이메일, 이름 그리고 학습 총 진행률과 카테고리 별 진행률을 확인 할 수 있습니다. 보여지는 이메일을 통해 Wordy측에서 인증 번호 발송 및 리마인드 서비스를 제공하며, 단어 학습 페이지로 빠른 이동이 가능하도록 버튼이 추가 됐습니다. 이외에도 최상단 우측의 사용자의 이미지 클릭을 통해 내 정보로 바로 이동 및 로그아웃을 진행 할 수 있습니다.
 
-## 기능 소개
+## 🔧 기능 소개
 
 - Wordy는 영어 단어 학습과 AI 기반 문법 교정 서비스를 제공.
 - 사용자는 학습한 단어를 바탕으로 문장 생성 컨텐츠를 통해 복습할 수 있으며, 학습 진도율과 랭킹 서비스를 통해 학습 동기 부여.
@@ -178,7 +178,7 @@ Wordy는 어디서나 쉽게 영단어 학습을 하며, AI를 통해 문법 교
 - 학습 진행도 확인, 빠른 학습하러 가기 버튼
 - 유저 정보 수정하기 클릭 시 비밀번호 입력 후 수정가능
 
-- <div><img width="518" alt="image" src="https://github.com/user-attachments/assets/7452332e-937c-449f-a453-07fe7d2679b9" /> <img width="433" alt="내 정보 페이지" src="https://private-user-images.githubusercontent.com/124546770/399465019-6b92a651-db07-42aa-8bf7-d2c4eb3c6944.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU2NDYxNTksIm5iZiI6MTczNTY0NTg1OSwicGF0aCI6Ii8xMjQ1NDY3NzAvMzk5NDY1MDE5LTZiOTJhNjUxLWRiMDctNDJhYS04YmY3LWQyYzRlYjNjNjk0NC5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIzMVQxMTUwNTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03NmQxODc5ODVjMmUzNDkxOTAwMzUyNmIxZjMzZDg1ZDhiZDM4ZDhlOWQ3NzE3MmQwYmE1MTJjMjlmODRlMjgwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Pd6-AKCYGpdNc0Wnke5BmF_yBliTal2jRqlW8E2y4kQ"/></div>
+- <div style="display:flex; justfy-content:center; align-item:top;"><img width="518" alt="image" src="https://github.com/user-attachments/assets/7452332e-937c-449f-a453-07fe7d2679b9" /> <img width="433" alt="내 정보 페이지" src="https://private-user-images.githubusercontent.com/124546770/399465019-6b92a651-db07-42aa-8bf7-d2c4eb3c6944.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU2NDYxNTksIm5iZiI6MTczNTY0NTg1OSwicGF0aCI6Ii8xMjQ1NDY3NzAvMzk5NDY1MDE5LTZiOTJhNjUxLWRiMDctNDJhYS04YmY3LWQyYzRlYjNjNjk0NC5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIzMVQxMTUwNTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03NmQxODc5ODVjMmUzNDkxOTAwMzUyNmIxZjMzZDg1ZDhiZDM4ZDhlOWQ3NzE3MmQwYmE1MTJjMjlmODRlMjgwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Pd6-AKCYGpdNc0Wnke5BmF_yBliTal2jRqlW8E2y4kQ"/></div>
 
 ## AI 활용
 
