@@ -142,16 +142,20 @@ Wordy는 영어 단어 학습과 AI 기반 문법 교정 서비스를 제공합�
 > 스크립트 생성 [AI]
 
 문장 단어 학습은 사용자가 학습한 단어를 바탕으로 스크립트를 생성해 보다 자연스러운 대화형 학습을 제공합니다.
-
-- <div style="display: flex;"><img width="443" src="https://private-user-images.githubusercontent.com/124546770/399427973-430d652d-0241-4787-8856-0e04ffb7ff0a.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU2MzAzNzcsIm5iZiI6MTczNTYzMDA3NywicGF0aCI6Ii8xMjQ1NDY3NzAvMzk5NDI3OTczLTQzMGQ2NTJkLTAyNDEtNDc4Ny04ODU2LTBlMDRmZmI3ZmYwYS5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIzMVQwNzI3NTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iYmI5NWFhZmI1Mjc0ZTRkNDUxOWUwZDEyMTk4MDVlMmEyM2EyOThmYjNkMDZiY2M1MWNkZTQ3MDhlNDBhYTU1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.pPx_fMIy9TkoO1ADlYy3BneFsul16GWiCrfV9dOqR-A"/> <img width="443" alt="단어 학습 화면" src="https://private-user-images.githubusercontent.com/124546770/399428755-f617ea73-cf67-4d5d-bd65-befeac4c5891.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU2MzA3MjQsIm5iZiI6MTczNTYzMDQyNCwicGF0aCI6Ii8xMjQ1NDY3NzAvMzk5NDI4NzU1LWY2MTdlYTczLWNmNjctNGQ1ZC1iZDY1LWJlZmVhYzRjNTg5MS5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIzMVQwNzMzNDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04OWEyNGM4NGVmMmM5MmNhMGE5NmM3Mjk0NDMyNTg5NmYyYjMzMWU5OGQwZjNjMzE4MjYwMmJkZjZlZjU2ZDA2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.lop0wnY0qjZ7OHW3cU8yfylrPxy0gTGV7pmOsq8oALI"/></div>
+- 단어 학습 후 스크립트 문법 생성
+- <div style="display: flex;"><img width="443" alt="단어 학습 화면" src="https://private-user-images.githubusercontent.com/124546770/399428755-f617ea73-cf67-4d5d-bd65-befeac4c5891.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU2MzA3MjQsIm5iZiI6MTczNTYzMDQyNCwicGF0aCI6Ii8xMjQ1NDY3NzAvMzk5NDI4NzU1LWY2MTdlYTczLWNmNjctNGQ1ZC1iZDY1LWJlZmVhYzRjNTg5MS5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIzMVQwNzMzNDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04OWEyNGM4NGVmMmM5MmNhMGE5NmM3Mjk0NDMyNTg5NmYyYjMzMWU5OGQwZjNjMzE4MjYwMmJkZjZlZjU2ZDA2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.lop0wnY0qjZ7OHW3cU8yfylrPxy0gTGV7pmOsq8oALI"/><img width="443" src="https://private-user-images.githubusercontent.com/124546770/399427973-430d652d-0241-4787-8856-0e04ffb7ff0a.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU2MzAzNzcsIm5iZiI6MTczNTYzMDA3NywicGF0aCI6Ii8xMjQ1NDY3NzAvMzk5NDI3OTczLTQzMGQ2NTJkLTAyNDEtNDc4Ny04ODU2LTBlMDRmZmI3ZmYwYS5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIzMVQwNzI3NTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iYmI5NWFhZmI1Mjc0ZTRkNDUxOWUwZDEyMTk4MDVlMmEyM2EyOThmYjNkMDZiY2M1MWNkZTQ3MDhlNDBhYTU1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.pPx_fMIy9TkoO1ADlYy3BneFsul16GWiCrfV9dOqR-A"/> </div>
 
 > 단어장 및 저장소
 
 단어장 및 저장소에서 학습한 단어, 틀린단어, 카테고리별 단어, 즐겨찾기 등 단어들을 한눈에 확인하고 추가로 커스텀 단어를 등록하거나 즐겨찾기에 등록할 수 있습니다. 또한 검색API를 통해 서비스에 등록된 단어를 검색할 수 있습니다.
+- <img width="443" alt="문법 교정" src="https://private-user-images.githubusercontent.com/124546770/399430060-7014185f-7f2d-455b-adc3-c435cea98ff4.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU2MzEyMzIsIm5iZiI6MTczNTYzMDkzMiwicGF0aCI6Ii8xMjQ1NDY3NzAvMzk5NDMwMDYwLTcwMTQxODVmLTdmMmQtNDU1Yi1hZGMzLWM0MzVjZWE5OGZmNC5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIzMVQwNzQyMTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jYTliNjJjZmU0ZWI1N2ZlNDk2ZDVmYTJmZTk0NzAwYzVhMWE2Nzg0NzIwYTJmODBlMjAwMTg0NjVmYTI4MTE1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.IZaX47NE0kzHHGOgJ-ZMEOge2dOcQo62eh1x_SiQ_sA"/>
 
 > 내 정보 페이지 및 리마인드 서비스
 
 내 정보 페이지에서 유저의 개인 정보와 학습 진행률을 확인할 수 있으며, 학습현황에 따라 이메일을 통해 리마인드 서비스를 제공합니다.
+
+- <img width="518" alt="image" src="https://github.com/user-attachments/assets/7452332e-937c-449f-a453-07fe7d2679b9" />
+
 
 > 시작 페이지
 >
@@ -177,6 +181,9 @@ Wordy는 영어 단어 학습과 AI 기반 문법 교정 서비스를 제공합�
   - 랭킹 표시 카테고리 예시 : 누적 랭킹/ 주차별랭킹 / 일일랭킹
 - 누적 랭킹일 경우 100등까지 UI로 표시 (스크롤 사용)
 
+- 랭킹 페이지부터 로그아웃
+- <div style="display:flex;"><img width="370" alt="image" src="https://github.com/user-attachments/assets/86c69054-f747-45ea-bc86-032a775cf1fe" /><img width="433" alt="랭킹 gif" src="https://private-user-images.githubusercontent.com/124546770/399464999-9dc6160e-b8eb-4e89-ab24-9f4c4d02a330.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU2NDU3NzUsIm5iZiI6MTczNTY0NTQ3NSwicGF0aCI6Ii8xMjQ1NDY3NzAvMzk5NDY0OTk5LTlkYzYxNjBlLWI4ZWItNGU4OS1hYjI0LTlmNGM0ZDAyYTMzMC5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIzMVQxMTQ0MzVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05YjI5YWVmY2ZiMzg1MGRhMjVkNzY4MTU0NTBkNjM0MDk2ZTBmYTk0N2ViZTQzMjUwNjVmMTZkMzg0MjFjNjgwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.S22gPX0M1_eQ-dXD86lf4vupgcbXBcYGsljcvKLxcak"/></div>
+
 > 학습 페이지
 >
 > > 유저가 추천 단어 기반으로 새로운 단어 학습 및 학습 단어 기반으로 AI 스크립트로 추가 학습을 할 수 있는 페이지
@@ -190,26 +197,38 @@ Wordy는 영어 단어 학습과 AI 기반 문법 교정 서비스를 제공합�
 - 학습 도중 유저가 저장해서 학습하고 싶은 단어는 즐겨찾기 기능 이용
 - 유저가 기존에 생성해둔 단어장 및 즐겨찾기
 
+- <img width="433" alt="
+
 > 나의 학습
 >
 > > 유저가 학습한 단어만 재 학습할 수 있는 복습 페이지
 
 - 기본 단어(학습 페이지에서 오답처리된 단어들)장 내에서 재 학습 시 맞추면 기본 단어장에서 삭제됨
-- 유저가 만든 단어장, 개인이 만들 수 있는 단어장
 
-> 단어 카테고리
+> 내 단어장
 >
-> > 직군별 또는 수준별 단어로 분류해 카테고리를 나눠서 볼 수 있는 페이지
+> > 유저가 학습한 단어들을 카테고리별 또는 직접 추가하여 단어를 모아볼 수 있는 페이지 
+- 서비스 내에 없는 단어장을 유저가 추가하여 학습 가능
 
-- 데이터셋 가공이 완료된 후 확립예정
-- 단어 카테고리를 선택해서 들어가면 해당 단어 학습 또는 조회 가능
+- <div style="display:flex;"><img width="433" alt="단어장" src="https://private-user-images.githubusercontent.com/124546770/399465614-f72eb0e8-36a4-44a7-a471-69e4113c2e10.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU2NDYwNTMsIm5iZiI6MTczNTY0NTc1MywicGF0aCI6Ii8xMjQ1NDY3NzAvMzk5NDY1NjE0LWY3MmViMGU4LTM2YTQtNDRhNy1hNDcxLTY5ZTQxMTNjMmUxMC5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIzMVQxMTQ5MTNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02ZmQyMjBjNTk1ZGQwNzMxOWI4MzY3ZjI4NmMwNzUwZTNhODkyNDBjZDg3NWZiOTE2ZmFiNzNhMjQ3OTU3MjViJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.1FxttfFHHs2eMnuq3WvynDaenNCU1UJ2YTgr3eEt5wM"/>><img width="433" alt="단어장" src="https://private-user-images.githubusercontent.com/124546770/399465027-d037364e-dae0-4ffc-8e3e-bffa3cf1236b.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU2NDYxNTksIm5iZiI6MTczNTY0NTg1OSwicGF0aCI6Ii8xMjQ1NDY3NzAvMzk5NDY1MDI3LWQwMzczNjRlLWRhZTAtNGZmYy04ZTNlLWJmZmEzY2YxMjM2Yi5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIzMVQxMTUwNTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yM2IxZmFmZWMxYzJjMzA0YjNkN2FmZjc1NWVmYTU3NWM4MzI3ZmI4ZDZkMTRkN2QyZmI1NGVjODI0NDg2MzZiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.iazLRC6cl_AegwBsMQWdnBvQSdDcKUkHz6glkVSVwgE"/></div>
+
+> 단어 저장소
+>
+> > 서비스 내에서 제공되고 있는 모든 단어를 단어장으로 확인할 수 있는 카테고리
+
+- 영단어 검색을 통해 즐겨찾기 추가 가능
+
+- <img width="433" alt="전체 단어 모음" src="https://private-user-images.githubusercontent.com/124546770/399465023-a17ea605-40c5-4bc5-b438-0035ba11b559.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU2NDYxNTksIm5iZiI6MTczNTY0NTg1OSwicGF0aCI6Ii8xMjQ1NDY3NzAvMzk5NDY1MDIzLWExN2VhNjA1LTQwYzUtNGJjNS1iNDM4LTAwMzViYTExYjU1OS5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIzMVQxMTUwNTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xMjI2ZjVlMGZkMmU1YWRmODU0MDY1MTMyNTkxMWJjOWQxNjgzYjRhM2Q4NTBhZjY2MDI2YjExOTc2MmVkMjgxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9._5Bv-UZNxpD1mEg122Jan6S6aiM_7eWb43XBZhIwz0Q"/>
 
 > 내 정보
 >
-> > 유저 정보를 조회 및 수정, 버전 정보를 확인 할 수 있는 페이지
+> > 유저 정보를 조회 및 수정, 버전 정보를 확인 및 학습 진행도를 확인 할 수 있는 페이지
 
-- 유저 프로필 목록 조회
+- 유저 프로필 조회
+- 학습 진행도 확인, 빠른 학습하러 가기 버튼
 - 유저 정보 수정하기 클릭 시 비밀번호 입력 후 수정가능
+
+- <img width="433" alt="내 정보 페이지" src="https://private-user-images.githubusercontent.com/124546770/399465019-6b92a651-db07-42aa-8bf7-d2c4eb3c6944.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU2NDYxNTksIm5iZiI6MTczNTY0NTg1OSwicGF0aCI6Ii8xMjQ1NDY3NzAvMzk5NDY1MDE5LTZiOTJhNjUxLWRiMDctNDJhYS04YmY3LWQyYzRlYjNjNjk0NC5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIzMVQxMTUwNTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03NmQxODc5ODVjMmUzNDkxOTAwMzUyNmIxZjMzZDg1ZDhiZDM4ZDhlOWQ3NzE3MmQwYmE1MTJjMjlmODRlMjgwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Pd6-AKCYGpdNc0Wnke5BmF_yBliTal2jRqlW8E2y4kQ"/>
 
 ## AI 활용
 
